@@ -1,27 +1,32 @@
-# PrivChain 🔐
 
-A fully decentralized password manager built with Web3. Users can securely store and retrieve encrypted passwords on IPFS, controlled only by their Ethereum wallet. No central server. No signup. 100% privacy.
+---
 
-## 🛠 Tech Stack
+### 📁 `PrivChain/README.md`
 
-- React.js
-- Web3 (Ethers.js)
-- IPFS (via web3.storage or Infura)
-- MetaMask (for wallet connection)
-- AES Encryption (client-side)
+```markdown
+# PrivChain
 
-## 🌟 Features
+**PrivChain** is a decentralized password manager built on Web3. It allows users to securely store and retrieve passwords using their MetaMask wallet and IPFS, ensuring full privacy and control over their data.
 
-- 💾 Decentralized storage via IPFS
-- 🔐 AES-encrypted password entries
-- 👛 MetaMask authentication
-- 🧩 No centralized backend
-- 📱 Responsive UI
+## 🌐 Tech Stack
+
+- **Frontend**: React + Vite + Tailwind CSS
+- **Storage**: IPFS (via Web3.Storage)
+- **Wallet**: MetaMask / Ethereum
+- **Blockchain**: Smart contract (optional for verification)
+
+## 🔐 Features
+
+- 🔒 Decentralized storage (IPFS)
+- 🧠 Encrypted password entries
+- 👛 Web3 login via MetaMask
+- 📂 CRUD for passwords (locally encrypted)
+- 🛡️ Zero-knowledge, privacy-first design
 
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/PrivChain.git
+git clone https://github.com/your-username/PrivChain.git
 cd PrivChain
 npm install
 npm run dev
